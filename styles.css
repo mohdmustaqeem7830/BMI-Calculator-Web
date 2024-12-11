@@ -78,7 +78,7 @@ button{
     display: none;
 }
 
-@media (max-width : 350px){
+@media (max-width : 370px){
     label{
         display: block;
         text-align: center;

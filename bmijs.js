@@ -33,10 +33,6 @@ form.addEventListener('submit',function(e){
     form.style.display ='none'
     again.style.display = 'block'
 
-    const screenWidth = window.innerWidth;
-
-    
-    
 
 
 
@@ -44,7 +40,7 @@ form.addEventListener('submit',function(e){
         if(bmi<18.6){
 
             body.style.backgroundColor = "blue"
-            resultText.innerHTML = "Browser window width: " + screenWidth + "px";
+            resultText.innerHTML = "Your BMI suggests you're underweight. It's important to nourish your body with a balanced diet to achieve a healthy weight and feel your best.";
 
 
         }
