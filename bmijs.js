@@ -27,6 +27,8 @@ form.addEventListener('submit',function(e){
     // Calculate BMI
     const bmi = weight / (heightInMeters ** 2);
     results.innerHTML = `Your BMI is: ${bmi.toFixed(2)}`;
+    results.style.color = 'white'
+    results.style.display = 'block'
     guideDiv.style.display = 'none';
     resultText.style.display = 'block';
     body.style.backgroundImage='none'
