@@ -46,6 +46,7 @@ h1{
     display: block;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 10px;
     
 }
 .mainContainer{
@@ -75,5 +76,17 @@ button{
 
 .again{
     display: none;
+}
+
+@media (max-width : 350px){
+    label{
+        display: block;
+        text-align: center;
+    }
+    input{
+        font-size: clamp(1rem,2.5vw,2rem);
+        background-color: transparent;
+        margin: 10px 10px ;
+    }
 }
 
