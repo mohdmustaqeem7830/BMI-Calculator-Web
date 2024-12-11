@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    
+}
+body{
+    
+    background-image: url("/bg.jpg");
+    background-size: cover;
+}
+label{
+    font-size: clamp(1rem,2.5vw,2rem);
+    margin: 10px 10px ;
+    text-align: center;
+}
+input{
+    font-size: clamp(1rem,2.5vw,2rem);
+    background-color: transparent;
+    margin: 10px 10px ;
+}
+
+
+#results{
+    font-size: clamp(1rem,2.5vw,3rem);
+    font-weight: bold;
+    margin: 20px 10px ;
+    
+}
+.guide{
+   font-size: clamp(0.75rem, 2vw,1rem);
+   margin: 30px 10px ;
+   text-align: center;
+}
+
+.resultText{
+    font-size: clamp(1rem,2.5vw,3rem); 
+    display: none;
+    margin: 10px 10px ;
+    padding: 50px;
+    color: white;
+    font-style: italic;
+}
+
+h1{
+    font-size: clamp(2rem, 5vw, 4rem); 
+    font-style: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.mainContainer{
+    display: flex;
+    height: 100vh;          /* Full viewport height */
+    width: 100vw; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+form {
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically */
+    align-items: center; /* Center all elements inside the form */
+}
+
+button{
+    background-color:black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: clamp(1rem,2.5vw,2rem);
+    border-radius: 14px;
+    margin: 10px 10px ;
+}
+
+.again{
+    display: none;
+}
+
